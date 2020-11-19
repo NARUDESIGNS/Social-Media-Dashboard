@@ -280,7 +280,16 @@ label {
 
 /* ------------------------------ MOBILE SCREENS ------------------------------ */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
+    .top .upper-cards-container, .bottom .lower-cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1.5em;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
     .container {
         padding-bottom: 50px;
     }
